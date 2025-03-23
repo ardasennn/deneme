@@ -13,7 +13,7 @@
 h2 {
     font-size: 18px;
     color: #333;
-    margin-top: 20px; /* Butonlardan biraz boşluk */
+    margin-top: 20px;
 }
 
 .buttons {
@@ -42,12 +42,13 @@ button#yesBtn {
 button#noBtn {
     background-color: red;
     color: white;
+    position: relative; /* Bu satırı ekledik */
     margin-top: 50px;
 }
 
 #response {
     font-size: 18px;
     color: #333;
-    margin-top: 40px; /* Butonlardan sonra, altına biraz mesafe */
+    margin-top: 40px;
     text-align: center;
 }
