@@ -4,6 +4,7 @@ const response = document.getElementById("response");
 
 // "Evet" butonuna basılırsa emoji göster
 yesBtn.addEventListener("click", function() {
+    // Önceden yazıyı temizle
     response.innerText = "Tebrikler doğru hap'ı seçtiniz😅";
     sendData("YEŞİL");
 });
@@ -17,7 +18,10 @@ noBtn.addEventListener("mouseover", function() {
 });
 
 noBtn.addEventListener("click", function() {
-    response.innerText = "😂";
+    // Kırmızı butona tıklandığında yazıyı sadece bir kez ekle
+    if (response.innerText !== "Tebrikler doğru hap'ı seçtiniz😅") {
+        response.innerText = "😂";
+    }
     sendData("KIRMIZI");
 });
 
