@@ -1,39 +1,33 @@
-body {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-}
-
 .container {
-    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
 }
 
-.profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.resim {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
 }
 
-.buttons {
+h2 {
+    font-size: 18px;
     margin-top: 20px;
+    color: #333;
 }
 
 button {
-    margin: 10px; 
-    padding: 10px 20px;  
-    border-radius: 5px;  
-    border: none; 
-    color: white;
+    margin: 10px;
+    padding: 10px 20px;
     font-size: 16px;
+    border-radius: 5px;
 }
 
-#yesBtn {
+button#yesBtn {
     background-color: green;
     color: white;
 }
 
-#noBtn {
+button#noBtn {
     background-color: red;
     color: white;
-    position: absolute;
 }
