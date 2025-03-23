@@ -1,6 +1,7 @@
 .container {
     text-align: center;
     padding: 20px;
+    position: relative;
 }
 
 .resim {
@@ -21,14 +22,21 @@ button {
     font-size: 16px;
     border-radius: 5px;
     position: absolute;
+    z-index: 10;
 }
 
 button#yesBtn {
     background-color: green;
     color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 button#noBtn {
     background-color: red;
     color: white;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
