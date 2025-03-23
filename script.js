@@ -3,7 +3,7 @@ const yesBtn = document.getElementById("yesBtn");
 const response = document.getElementById("response");
 
 yesBtn.addEventListener("click", function() {
-    response.innerText = "Tebrikler doğru hap'ı seçtiniz😅";
+    response.innerText = "Tebrikler doğru hapı seçtiniz😅";
     sendData("YEŞİL");
 });
 
