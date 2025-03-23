@@ -4,8 +4,8 @@ const response = document.getElementById("response");
 
 // "Evet" butonuna basılırsa emoji göster
 yesBtn.addEventListener("click", function() {
-    response.innerText = "😊";
-    sendData("Evet");
+    response.innerText = "Tebrikler doğru hap'ı seçtiniz😅";
+    sendData("YEŞİL");
 });
 
 // "Hayır" butonuna basılırsa buton kaçar
@@ -18,7 +18,7 @@ noBtn.addEventListener("mouseover", function() {
 
 noBtn.addEventListener("click", function() {
     response.innerText = "😂";
-    sendData("Hayır");
+    sendData("KIRMIZI");
 });
 
 // Google Sheets'e veri gönderme fonksiyonu
